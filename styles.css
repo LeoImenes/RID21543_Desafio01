@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #303030;
+    --font-color-main: #fff;
+    --font-color-secondary: #000;
+    --font-size-title: 60px;
+    --font-size-subtitle: 20px;
+    --font-size-content: 40px;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bg-color);
+    width: 100svw;
+    height: 40vh;
+}
+
+header h1 {
+    color: var(--font-color-main);
+    font-size: var(--font-size-title);
+    margin-left: 62px;
+}
+
+header p {
+    margin-top: 10px;
+    margin-left: 62px;
+
+    color: var(--font-color-main);
+    font-size: var(--font-size-subtitle);
+}
+
+.companyStats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100svw;
+    height: 30vh;
+}
+
+
+.companyStats h1 {
+    font-size: var(--font-size-content);
+}
+
+
+
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.about {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    gap: 20px;
+
+}
+
+.about h1 {
+    font-size: 40px;
+}
+
+.about p {
+    display: flex;
+    text-align: start;
+    font-size: 24px;
+}
+
+
+form{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+
+input {
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    color: #0000004D;
+    font-size: 24px;
+    padding-left: 30px;
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: #0000004D;
+    font-weight: bold;
+}
+
+input:focus {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+footer h2 {
+    font-size: 32px;
+    color: var(--font-color-main);
+}
+
+button {
+    width: 286px;
+    height: 74px;
+    align-self: center;
+    background: #C07212;
+    border-radius: 10px;
+    color: var(--font-color-main);
+    font-size: 30px;
+    cursor: pointer;
+
+}

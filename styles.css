@@ -84,7 +84,7 @@ header p {
 }
 
 
-form{
+form {
     height: 65vh;
     display: flex;
     flex-direction: column;
@@ -133,4 +133,10 @@ button {
     font-size: 30px;
     cursor: pointer;
 
+}
+
+button:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.1);
+    transition: all .1s;
 }

@@ -1,6 +1,7 @@
 const sheetURL = "https://api.sheetmonkey.io/form/b3wf9HgpUsseMrguTnc3hj";
 
 document.getElementById("form").addEventListener("submit", async (e) => {
+  e.preventDefault();
   const formData = new FormData(e.target);
   const data = Object.fromEntries(formData.entries());
 
